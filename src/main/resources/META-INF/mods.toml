@@ -1,0 +1,41 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="[32,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+
+issueTrackerURL="http://my.issue.tracker/" #optional
+
+[[mods]] #mandatory
+
+modId="titanium" #mandatory
+
+version="${1.16.1-1.0.0}" #mandatory
+
+displayName="Titanium Mod" #mandatory
+
+updateJSONURL="http://myurl.me/" #optional
+
+displayURL="http://example.com/" #optional
+
+logoFile="examplemod.png" #optional
+
+credits="I would like to thank TechnoVision, TurtyWurty, xf8b and MetalTurtle for helping me all the way!" #optional
+
+authors="INFINITELeagues" #optional
+
+description='''
+This Mod adds Titanium Swords and many other Items that look really nice!
+'''
+
+[[dependencies.examplemod]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[32,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.1]"
+    ordering="NONE"
+    side="BOTH"
